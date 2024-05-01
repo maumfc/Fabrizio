@@ -59,7 +59,21 @@ justify-content: space-around;
 
 .img3 {
   display: flex;
-  justify-content: center;
+  justify-content: center;z
+  align-items: center;
+  justify-content: space-around;
+ 
+}
+.img1 {
+  display: flex;
+  justify-content: center;z
+  align-items: center;
+  justify-content: space-around;
+ 
+}
+.img2 {
+  display: flex;
+  justify-content: center;z
   align-items: center;
   justify-content: space-around;
  
@@ -78,4 +92,37 @@ justify-content: space-around;
 
 .contenedor{
   display: flex;
+
+   }
+
+  .mover1{
+    position: absolute;
+    left: px;
+    bottom: 200px;
+    
+  }
+
+    
+.mover2{
+  position: absolute;
+  left: 635px;
+  bottom: 185px;
+
+
 }
+.mover3{
+  position: absolute;
+  left: 930px;
+  bottom: 200px;
+
+
+}
+
+.mover4{
+  position: absolute;
+  left: 750px;
+  bottom: 200px;
+
+
+}
+
