@@ -64,7 +64,7 @@ justify-content: space-around;
 .img1 {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; 9
   justify-content: space-around;
  
 }
@@ -95,7 +95,7 @@ body{
 
   .mover1{
     position: absolute;
-    left: px;
+    left: 361px;
     bottom: 200px;
     
   }
@@ -103,14 +103,14 @@ body{
     
 .mover2{
   position: absolute;
-  left: 635px;
-  bottom: 185px;
+  left: 510px;
+  bottom: 200px;
 
 
 }
 .mover3{
   position: absolute;
-  left: 930px;
+  left: 648px;
   bottom: 200px;
 
 
@@ -118,9 +118,15 @@ body{
 
 .mover4{
   position: absolute;
-  left: 750px;
+  left: 810px;
   bottom: 200px;
 
 
 }
 
+.imagenes {
+  position: absolute;
+  right: 10px;
+  top: 470px;
+  border: 10px solid rgb(196, 35, 35);
+}
