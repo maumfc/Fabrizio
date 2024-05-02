@@ -18,10 +18,7 @@ h1 {
   }
 
   .bordesito{
-    border: 1px solid black;
-    margin-left: 2g%;
-    
-    
+    margin-left: 2%;
    
   }
   ul{
@@ -34,7 +31,7 @@ h1 {
 circle{
   stroke: gray;
   stroke-width: 8;
-  stroke-dasharray: var(--porcentaje);100
+  stroke-dasharray: var(--porcentaje) 100;
   transform: rotate(-90deg);
   transform-origin: 50%;
   fill: darkgray;
@@ -59,30 +56,31 @@ justify-content: space-around;
 
 .img3 {
   display: flex;
-  justify-content: center;z
+  justify-content: center;
   align-items: center;
   justify-content: space-around;
  
 }
 .img1 {
   display: flex;
-  justify-content: center;z
-  align-items: center;
+  justify-content: center;
+  align-items: center; 9
   justify-content: space-around;
  
 }
 .img2 {
   display: flex;
-  justify-content: center;z
+  justify-content: center;
   align-items: center;
   justify-content: space-around;
  
 }
-
+body{
+  border: 1px solid #000;
+}
 
 
 .bordesito2{
-  border: 1px solid black;
   margin: 25;
   height: 50vh;
   width: 78;
@@ -97,7 +95,7 @@ justify-content: space-around;
 
   .mover1{
     position: absolute;
-    left: px;
+    left: 361px;
     bottom: 200px;
     
   }
@@ -105,14 +103,14 @@ justify-content: space-around;
     
 .mover2{
   position: absolute;
-  left: 635px;
-  bottom: 185px;
+  left: 510px;
+  bottom: 200px;
 
 
 }
 .mover3{
   position: absolute;
-  left: 930px;
+  left: 648px;
   bottom: 200px;
 
 
@@ -120,9 +118,15 @@ justify-content: space-around;
 
 .mover4{
   position: absolute;
-  left: 750px;
+  left: 810px;
   bottom: 200px;
 
 
 }
 
+.imagenes {
+  position: absolute;
+  right: 10px;
+  top: 470px;
+  border: 10px solid rgb(196, 35, 35);
+}
